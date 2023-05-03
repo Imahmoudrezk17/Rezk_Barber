@@ -1,0 +1,242 @@
+body {
+  background-color: rgb(10,21,33);
+}
+
+.navbar {
+  border-bottom: 1px solid red;
+  border-right: 1px solid red;
+  border-left: 1px solid red;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#logo-style {
+  font-family: 'Kaushan Script', cursive;
+  color: #d90202;
+  text-shadow: -3px 5px 5px rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  width: 20%;
+}
+
+.menu-style {
+  font-size: 16px;
+  font-family: 'Archivo Black';
+  font-weight: 400;
+  font-style: italic;
+}
+
+#logo img {
+  width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+#welcome {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+#appointment {
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#bar-color {
+  background-color: #1e2c3b;
+}
+
+#center-info {
+  background-color: #1e2c3b;
+  border-radius: 15px;
+  border: 1px solid red;
+  height: 250px;
+  width: 85%;
+  margin-bottom: 50px;
+}
+
+.booknow {
+  padding: 2px 55px;
+  border-radius: 30px;
+  border: 2px solid white;
+}
+
+.booknow:hover {
+  color: #000000;
+  background-color: #ffffff;
+  padding: 2px 55px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: 2px solid rgb(255,255,255);
+  text-decoration: none;
+}
+
+#center-bar {
+  margin-top: 13px;
+}
+
+.fab.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+}
+
+a {
+  color: white;
+  background-color: rgba(0,98,204,0);
+}
+
+.permanent-marker {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.fas.fa-phone {
+  color: #d90202;
+  margin-bottom: 1.5rem;
+}
+
+.fas.fa-map-marker-alt {
+  color: #d90202;
+}
+
+.text-shadow {
+  text-shadow: -3px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.location {
+  background-color: #ffffff;
+}
+
+.instagram {
+  font-size: xx-large;
+}
+
+#pics {
+  background-color: rgb(98, 31, 31);
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+@media (min-width: 300px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 90%;
+  }
+}
+
+@media (min-width: 576px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .item-pic {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 80%;
+  }
+}
+
+.fa-facebook {
+  color: #4469b0;
+  font-size: 35px;
+  margin-top: 30px;
+}
+
+.facebook {
+  font-size: xx-large;
+}
+
+.permanent-marker.phone a:hover {
+  color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0);
+  padding: 1px 41px;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.permanent-marker.phone a {
+  color: black;
+  background-color: #ffffff;
+  padding: 1px 41px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.permanent-marker.location a {
+  color: black;
+  font-size: smaller;
+  background-color: white;
+  padding: 8px 18px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.permanent-marker.location a:hover {
+  color: rgb(255,255,255);
+  background-color: rgba(255,255,255,0);
+  padding: 8px 18px;
+  border-radius: 25px;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+#appt-center {
+  height: 100%;
+  background-color: #1e2c3b;
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+}
+
+@media (min-width: 300px) {
+  .fas.fa-user-tie {
+    color: white;
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .fas.fa-user-tie {
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+  }
+}
+
